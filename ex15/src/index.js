@@ -1,21 +1,22 @@
 // Only change code below this line
 function switchCase(letter) {
-    switch (animals) {
-        case a:
-            antelope;
+    var animals = '';
+    switch (letter) {
+        case 'a':
+            animals = 'antelope';
             break;
-        case b:
-            bird;
+        case 'b':
+            animals = 'bird';
             break;
-        case c:
-            cat;
+        case 'c':
+            animals = 'cat';
             break;
         default:
-            stuff;
+            animals = 'stuff';
             break;
     }
     return animals
 }
-console.log(switchCase(a));
+console.log(switchCase('a'));
 // Only change code above this line
 module.exports = switchCase;
